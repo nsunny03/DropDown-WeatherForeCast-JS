@@ -7,17 +7,16 @@ function setWeather(){
   
   var choice = select.value;
   
-  if(choice === 'sunny'){
-    para.textContent = 'It is sunny outside today.';
-  } 
-  else if(choice === 'rainy'){
-      para.textContent = 'It is rainy outside today';
-  }
-  else if (choice === 'snowing'){
-    para.textContent = 'It is snowing outside today';
-  }
-  else if (choice === 'overcast'){
-    para.textContent = 'It is Overcase outside today'
+  if(choice === 'rainy'){
+    para.textContent = 'Rainy weather';
+  }else if (choice === 'sunny'){
+    para.textContent = 'Sunny Weather';
+  }else if(choice === 'snowing'){
+    para.textContent = 'snowing weather';
+  }else if (choice === 'overcast'){
+    para.textContent = 'may or may not rain';
+  }else {
+    para.textContent = '';
   }
   
 }
